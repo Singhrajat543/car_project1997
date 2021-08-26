@@ -1,0 +1,162 @@
+
+
+
+#navhead
+{
+background-color:#36b5b1;
+
+}
+
+.imgheader
+{
+
+width: 100%;
+height: 300px;
+
+}
+.imageText
+{
+text-align: center;
+position: relative; 
+
+}
+
+.imageText h1{
+
+font-size: 3.1em;
+  position: absolute; 
+  
+  left:40px;
+  bottom: 120px;
+ 
+ 
+}
+
+.imageText p{
+
+
+  position: absolute; 
+  
+  left:40px;
+  top:170px;
+ 
+ 
+}
+
+.imageText button{
+position: absolute;
+left: 50px;
+bottom:30px;
+
+}
+
+.headerTab
+{
+
+width: 100%;
+height: 40px;
+background-color: #101010;
+display:block;
+
+}
+
+.midTab
+{
+
+background-color: #b3b0a8;
+width: 100%;
+height: 100%;
+display: block;
+margin: 0,auto;
+float:left;
+}
+
+.nav-item a
+{
+height:40px; 
+display:table;
+float:left;
+padding:0px 20px;
+vertical-align: middle;
+margin-left: 30px;
+
+
+}
+
+.midTab a li
+{
+display: table-cell;
+vertical-align: middle;
+height: 100%;
+font-size: 16px;
+color:black; 
+
+
+}
+
+
+
+
+
+hr.dashed {
+  border-top: 2px dashed #a0d7db;
+}
+
+hr.straightLine
+{
+
+border-top: 1px solid #adb2b3;
+}
+
+
+.vl {
+  border-left: 1px solid blue;
+  height: 50px;
+}
+
+.sidebar{
+
+width: 80%;.
+float: left;
+top: 110px;
+box-sizing: border-box;
+border: 2px solid #a5b0a8;
+padding: 20px 20px ;
+border-radius: 25px;
+height: 500px;
+position: absolute;
+}
+
+
+
+
+
+@media screen and (min-width: 400px) {
+  body {
+
+    .width:50%;
+
+  }
+
+  @media screen and (max-width: 414px) {
+
+
+div.sidebar{
+
+display:none; 
+
+
+
+    }
+
+div.MobileHeader
+{
+direction: none;
+
+}
+   
+
+    
+
+  
+}
